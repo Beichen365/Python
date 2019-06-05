@@ -5,7 +5,6 @@ while enough == False:
     if paid < price:
         print("Not enough money.")
         print("The cashier is very very very x 100 mad at you because your math is bad.")
-
         paid = float(input("Paid: "))
     else:
         enough = True
